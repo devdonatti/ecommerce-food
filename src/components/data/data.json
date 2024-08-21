@@ -1,0 +1,52 @@
+[
+{ "id": 1,
+"titulo": "Burger Texas" ,
+"descripcion": "Hamburguesa doble con triple cheddar, cebolla caramalizada y bacon" ,
+"categoria": "burgers",
+"precio": 6000,
+"imagen": "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-burger-king-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Stacker-Triple-1024x683.png",
+"stock": 10
+},
+{ "id": 2,
+"titulo": "Burger Orion" ,
+"descripcion": "Hamburguesa doble con triple cheddar, cebolla caramalizada y bacon" ,
+"categoria": "papas",
+"precio": 6000,
+"imagen": "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-burger-king-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/BaldePapas-1024x683.png",
+"stock": 10
+},
+{ "id": 3,
+"titulo": "Coca-Cola" ,
+"descripcion": "Bebida refrescante" ,
+"categoria": "bebidas",
+"precio": 2000,
+"imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGieMvB9zpIKK41PkwCalHCcwi_zKOmSeqcw&s",
+"stock": 10
+},
+{ "id": 4,
+"titulo": "Sprite" ,
+"descripcion": "Bebida refrescante" ,
+"categoria": "bebidas",
+"precio": 2000,
+"imagen": "https://static.wixstatic.com/media/d2b1c5_c5ec153331fa41ab88849bf23f69c72b~mv2.jpg/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d2b1c5_c5ec153331fa41ab88849bf23f69c72b~mv2.jpg",
+"stock": 10
+},
+{ "id": 5,
+"titulo": "Fanta" ,
+"descripcion": "Bebida refrescante" ,
+"categoria": "bebidas",
+"precio": 2000,
+"imagen": "https://static.wixstatic.com/media/d2b1c5_02c49ec28b1b4d80ac492fff04b4a137~mv2.jpg/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d2b1c5_02c49ec28b1b4d80ac492fff04b4a137~mv2.jpg",
+"stock": 10
+},
+{ "id": 6,
+"titulo": "Combo GrandBurger" ,
+"descripcion": "Hamburguesa doble con triple cheddar, cebolla caramalizada y bacon mas bebida mas papas" ,
+"categoria": "burgers",
+"precio": 10000,
+"imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1NEIkTvmEAtAxZ-blyqyU5vD11_cdVbMmmA&s",
+"stock": 10
+}
+
+
+]
