@@ -9,10 +9,24 @@ import Contacto from "./components/Contacto";
 import  CartProvider  from "./context/CartContext";
 import Carrito from "./components/Carrito"
 import CheckOut from "./components/CheckOut";
+{/*import { useState } from "react";
+
+import app from "./firebase/config.js"
+import {getAuth,onAuthStateChanged} from "firebase/auth"
+const auth = getAuth (app) */}
 
 function App() {
 
- 
+  {/*const [usuario, setUsuario] =useState(null)
+
+  onAuthStateChanged(auth,(usuarioFirebase) =>{
+    if (usuarioFirebase) {
+      setUsuario(usuarioFirebase)
+    }
+    else {
+      setUsuario(null)
+    }
+  }) */}
 
 
   return (

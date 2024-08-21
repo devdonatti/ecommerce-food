@@ -5,7 +5,7 @@ import CartWidget from './CartWidget'
 const Navbar = () => {
   return (
    <nav className='bg-slate-500 flex justify-between  p-4 w-full'>
-    <a href="#"><h1 className='text-white'>LogoFood</h1></a>
+    <a href="/"><h1 className='text-white'>LogoFood</h1></a>
     <ul className='flex gap-4'>
         <li><Link className='' to="/productos">Productos</Link></li>
         <li><Link className='' to="/productos/burgers">Burgers</Link></li>
