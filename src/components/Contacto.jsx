@@ -1,29 +1,56 @@
-import React from 'react'
-import { useForm } from 'react-hook-form'
+import React from 'react';
+import { useForm } from 'react-hook-form';
 
 const Contacto = () => {
-    const {register,handleSubmit}= useForm()
+    const { register, handleSubmit } = useForm();
 
     const enviar = (data) => {
-        console.log (data)
-    }
+        console.log(data);
+    };
 
+    return (
+        <div className='max-w-3xl mx-auto p-6 mt-6 bg-white  rounded-lg'>
+            <h2 className='text-2xl font-semibold mb-4 text-yellow-700 text-center'>Contacto</h2>
+            <form className='space-y-4' onSubmit={handleSubmit(enviar)}>
+                <div>
+                    <label className='block text-gray-700 text-sm font-medium mb-1'>Nombre</label>
+                    <input 
+                        className='w-full border border-gray-300 bg-slate-100 p-3 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500'
+                        type="text" 
+                        placeholder='Ingresa tu nombre' 
+                        {...register("nombre")} 
+                    />
+                </div>
 
-  return (
-   <div className='flex justify-center m-2'>
-   
-    <form className='flex flex-col w-1/2 justify-center'onSubmit={handleSubmit(enviar)}>
-        <label>nombre</label>
-        <input className='border bg-slate-200 p-2  border-gray-300 rounded'type="text" placeholder='ingresa tu nombre' {...register("nombre")} />
-        <label>email</label>
-        <input className='border bg-slate-200 p-2  border-gray-300 rounded'type="email" placeholder='ingresa tu email'{...register("email")} />
-        <label>telefono</label>
-        <input className='border bg-slate-200 p-2  border-gray-300 rounded'type="phone" placeholder='ingresa tu telefono'{...register("telefono")} />
+                <div>
+                    <label className='block text-gray-700 text-sm font-medium mb-1'>Email</label>
+                    <input 
+                        className='w-full border border-gray-300 bg-slate-100 p-3 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500'
+                        type="email" 
+                        placeholder='Ingresa tu email' 
+                        {...register("email")} 
+                    />
+                </div>
 
-        <button className='bg-slate-300 p-4 mt-2' type='submit'>Enviar</button>
-    </form>
-   </div>
-  )
-}
+                <div>
+                    <label className='block text-gray-700 text-sm font-medium mb-1'>Teléfono</label>
+                    <input 
+                        className='w-full border border-gray-300 bg-slate-100 p-3 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500'
+                        type="tel" 
+                        placeholder='Ingresa tu teléfono' 
+                        {...register("telefono")} 
+                    />
+                </div>
 
-export default Contacto
+                <button 
+                    className='w-full bg-yellow-500 text-white p-3 rounded-lg shadow hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-blue-400'
+                    type='submit'
+                >
+                    Enviar
+                </button>
+            </form>
+        </div>
+    );
+};
+
+export default Contacto;

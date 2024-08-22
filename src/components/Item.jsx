@@ -17,7 +17,7 @@ const Item = ({ producto }) => {
                
             </div>
             <div className='mt-auto'>
-                <Link className='block text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors'to={`/item/${producto.id}`}>Ver más</Link>
+                <Link className='block text-center bg-yellow-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors'to={`/item/${producto.id}`}>Ver más</Link>
             </div>
         </div>
     );
